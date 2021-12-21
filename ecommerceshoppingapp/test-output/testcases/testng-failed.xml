@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testcases]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smoketest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="fileutilitytest.createorganizationtype">
+        <methods>
+          <include name="logout"/>
+          <include name="createindtype"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- fileutilitytest.createorganizationtype -->
+      <class name="fileutilitytest.createleadTest">
+        <methods>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="lead"/>
+        </methods>
+      </class> <!-- fileutilitytest.createleadTest -->
+      <class name="fileutilitytest.LeadsaveTest">
+        <methods>
+          <include name="save"/>
+          <include name="logout"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- fileutilitytest.LeadsaveTest -->
+      <class name="fileutilitytest.createorgwithindustry">
+        <methods>
+          <include name="createorgindus"/>
+          <include name="logout"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- fileutilitytest.createorgwithindustry -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [testcases] -->
