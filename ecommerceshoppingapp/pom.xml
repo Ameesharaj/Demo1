@@ -8,7 +8,7 @@
 
 	<profiles>
 		<profile>
-			<id>smoke</id>
+			<id>SmokeTest</id>
 			<build>
 				<plugins>
 					<plugin>
@@ -25,7 +25,7 @@
 			</build>
 		</profile>
 		<profile>
-			<id>regression</id>
+			<id>Regression</id>
 			<build>
 				<plugins>
 					<plugin>
