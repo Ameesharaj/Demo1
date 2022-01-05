@@ -2,7 +2,7 @@ package com.crm.vtiger.dataprovider;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
-
+/**
 public class Retryanalyser implements IRetryAnalyzer{
 	
 	private int count=0;
@@ -19,3 +19,4 @@ public class Retryanalyser implements IRetryAnalyzer{
 	}
 
 }
+**/

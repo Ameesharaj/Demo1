@@ -6,10 +6,10 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import utility.Baseclass;
-@Listeners(com.crm.vtiger.dataprovider.Listner.class)
+//@Listeners(com.crm.vtiger.dataprovider.Listner.class)
 public class leads extends Baseclass {  
 	
-	@Test(retryAnalyzer =com.crm.vtiger.dataprovider.Retryanalyser.class)
+	//@Test(retryAnalyzer =com.crm.vtiger.dataprovider.Retryanalyser.class)
 	public void testcase (){
 		driver.findElement(By.xpath("//a[text()='eads']")).click();
 		driver.findElement(By.xpath("//img[@alt='Create Lead...']")).click();

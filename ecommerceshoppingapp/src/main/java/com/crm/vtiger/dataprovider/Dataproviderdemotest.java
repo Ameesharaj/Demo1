@@ -2,7 +2,7 @@ package com.crm.vtiger.dataprovider;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
+/**
 public class Dataproviderdemotest {   
 	
 @Test(dataProvider="bookticketdataprovider")
@@ -35,3 +35,4 @@ public void ticketbooking(String src,String dest) {
 	
 }
 }
+**/

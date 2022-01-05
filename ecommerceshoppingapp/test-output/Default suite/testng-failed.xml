@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JDBC.executequery2">
+      <class name="fileutilitytest.CreateOrg">
         <methods>
-          <include name="executequery"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closebrowser"/>
+          <include name="clickOrgLink"/>
         </methods>
-      </class> <!-- JDBC.executequery2 -->
+      </class> <!-- fileutilitytest.CreateOrg -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
