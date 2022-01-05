@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import utility.Baseclass;
 
 public class createorgwithindustry extends Baseclass {
-	@Test(groups= {"smoketest"})
+	@Test(groups= {"smoke","regression"})
 	public void createorgindus (){
 		driver.findElement(By.xpath("(//a [text()='Organizations'])[1]")).click();
 		driver.findElement(By.xpath("//img[@alt='Create Organization...']")).click();

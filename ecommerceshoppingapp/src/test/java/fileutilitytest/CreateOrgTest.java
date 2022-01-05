@@ -13,7 +13,7 @@ import utility.Baseclass;
 public class CreateOrgTest  extends Baseclass {
 	WebDriver driver;
 	
-	@Test(groups={"Smoketest"})
+	@Test
 		
 	public void createorganization() {
 		driver.findElement(By.xpath("(//a [text()='Organizations'])[1]")).click();

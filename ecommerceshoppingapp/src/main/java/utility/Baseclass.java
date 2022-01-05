@@ -53,7 +53,7 @@ public class Baseclass
 
 
 
-	@BeforeMethod
+	@BeforeMethod(groups= {"smoke","regression"})
 	public void login() throws IOException {
 	WebDriverUtilities web=new WebDriverUtilities();
 		
@@ -73,7 +73,7 @@ public class Baseclass
 		//lo.login(un,pwd);
 	}
 	
-	@AfterMethod
+	@AfterMethod(groups= {"smoke","regression"})
 	public void logout() {
 		//out.logout(driver);
 		logoutpom oo=new logoutpom(driver);
@@ -81,7 +81,7 @@ public class Baseclass
 		oo.signout();
 		
 	}
-@AfterClass
+@AfterClass(groups= {"smoke","regression"})
 public void closebrowser() {
 	//swd.close();
 	driver.close();

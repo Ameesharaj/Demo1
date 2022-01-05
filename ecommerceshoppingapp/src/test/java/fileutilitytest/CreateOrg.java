@@ -9,7 +9,7 @@ import utility.Baseclass;
 public class CreateOrg extends Baseclass{
 
 //WebDriver driver;
-@Test
+@Test(groups= {"smoke","regression"})
 public void clickOrgLink() throws Exception 
 {
 	HomePage hp = new HomePage(driver);
