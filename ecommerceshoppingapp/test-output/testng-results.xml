@@ -2,28 +2,34 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-05T16:16:20 IST" name="Default suite" finished-at="2022-01-05T16:16:33 IST" duration-ms="12216">
+  <suite started-at="2022-01-05T17:57:58 IST" name="Suite" finished-at="2022-01-05T17:58:13 IST" duration-ms="15039">
     <groups>
+      <group name="regression">
+        <method signature="CreateOrg.clickOrgLink()[pri:0, instance:fileutilitytest.CreateOrg@4fb3ee4e]" name="clickOrgLink" class="fileutilitytest.CreateOrg"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CreateOrg.clickOrgLink()[pri:0, instance:fileutilitytest.CreateOrg@4fb3ee4e]" name="clickOrgLink" class="fileutilitytest.CreateOrg"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2022-01-05T16:16:20 IST" name="Default test" finished-at="2022-01-05T16:16:33 IST" duration-ms="12216">
-      <class name="fileutilitytest.createleadTest">
-        <test-method is-config="true" signature="login()[pri:0, instance:fileutilitytest.createleadTest@4738a206]" started-at="2022-01-05T16:16:20 IST" name="login" finished-at="2022-01-05T16:16:28 IST" duration-ms="7840" status="PASS">
+    <test started-at="2022-01-05T17:57:58 IST" name="Test" finished-at="2022-01-05T17:58:13 IST" duration-ms="15039">
+      <class name="fileutilitytest.CreateOrg">
+        <test-method is-config="true" signature="login()[pri:0, instance:fileutilitytest.CreateOrg@4fb3ee4e]" started-at="2022-01-05T17:57:58 IST" name="login" finished-at="2022-01-05T17:58:06 IST" duration-ms="7472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="lead()[pri:0, instance:fileutilitytest.createleadTest@4738a206]" started-at="2022-01-05T16:16:28 IST" name="lead" finished-at="2022-01-05T16:16:30 IST" duration-ms="2313" status="PASS">
+        <test-method signature="clickOrgLink()[pri:0, instance:fileutilitytest.CreateOrg@4fb3ee4e]" started-at="2022-01-05T17:58:06 IST" name="clickOrgLink" finished-at="2022-01-05T17:58:11 IST" duration-ms="5363" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- lead -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:fileutilitytest.createleadTest@4738a206]" started-at="2022-01-05T16:16:31 IST" name="logout" finished-at="2022-01-05T16:16:32 IST" duration-ms="1845" status="PASS">
+        </test-method> <!-- clickOrgLink -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:fileutilitytest.CreateOrg@4fb3ee4e]" started-at="2022-01-05T17:58:11 IST" name="logout" finished-at="2022-01-05T17:58:13 IST" duration-ms="1918" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:fileutilitytest.createleadTest@4738a206]" started-at="2022-01-05T16:16:32 IST" name="closebrowser" finished-at="2022-01-05T16:16:33 IST" duration-ms="167" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:fileutilitytest.CreateOrg@4fb3ee4e]" started-at="2022-01-05T17:58:13 IST" name="closebrowser" finished-at="2022-01-05T17:58:13 IST" duration-ms="220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-      </class> <!-- fileutilitytest.createleadTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- fileutilitytest.CreateOrg -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
